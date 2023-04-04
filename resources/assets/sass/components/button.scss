@@ -1,0 +1,11 @@
+.tw-btn {
+    @extend .tw-shadow-md,
+        .tw-py-3,
+        .tw-font-semibold,
+        .tw-text-sm,
+        .tw-uppercase;
+}
+
+.tw-btn-default {
+    @extend .tw-py-3, .tw-font-semibold, .tw-text-sm, .tw-uppercase;
+}

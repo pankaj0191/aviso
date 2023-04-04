@@ -1,0 +1,126 @@
+// @include font-face(Nunito, '../fonts/nunito/Nunito-Black', 'Nunito', 900);
+// @include font-face(Nunito, '../fonts/nunito/Nunito-ExtraBold', 'Nunito', 800);
+// @include font-face(Nunito, '../fonts/nunito/Nunito-Bold', 'Nunito', 700);
+// @include font-face(Nunito, '../fonts/nunito/Nunito-SemiBold', 'Nunito', 600);
+// @include font-face(Nunito, '../fonts/nunito/Nunito-Medium', 'Nunito', 500);
+// @include font-face(Nunito, '../fonts/nunito/Nunito-Regular', 'Nunito', 400);
+// @include font-face(Nunito, '../fonts/nunito/Nunito-Light', 'Nunito', 300);
+// @include font-face(Nunito, '../fonts/nunito/Nunito-ExtraLight', 'Nunito', 200);
+
+// .font-face(@fontName: Nunito; @fontWeight: normal; @fontStyle: normal) {
+//     @font-face {
+//         font-family: @fontName;
+//         src: url('./fonts/@{fontName}/@{fontName}-Black.ttf');
+//         src: url('./fonts/@{fontName}/@{fontName}-ExtraBold.ttf')
+//                 url('./fonts/@{fontName}/@{fontName}-Bold.ttf'),
+//             url('./fonts/@{fontName}/@{fontName}-SemiBold.ttf'),
+//             url('./fonts/@{fontName}/@{fontName}-Medium.ttf'),
+//             url('./fonts/@{fontName}/@{fontName}-Regular.ttf'),
+//             url('./fonts/@{fontName}/@{fontName}-Light.ttf'),
+//             url('./fonts/@{fontName}/@{fontName}-Light.ttf'),
+//             url('./fonts/@{fontName}/@{fontName}-Light.ttf'),
+//             url('./fonts/@{fontName}/@{fontName}-Light.ttf');
+//         font-weight: @fontWeight;
+//         font-style: @fontStyle;
+//     }
+// }
+
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/nunito/Nunito-Black.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/nunito/Nunito-ExtraBold.ttf);
+    font-weight: 800;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/nunito/Nunito-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/nunito/Nunito-SemiBold.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/nunito/Nunito-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: Nunito;
+    src: url(/fonts/nunito/Nunito-Regular.ttf);
+}
+// @font-face {
+//     font-family: Nunito;
+//     src: url(/fonts/nunito/Nunito-Light.ttf);
+//     font-weight: 300;
+// }
+// @font-face {
+//     font-family: Nunito;
+//     src: url(/fonts/nunito/Nunito-ExtraLight.ttf);
+//     font-weight: 200;
+// }
+
+// Body
+@body-bg: #f3f4f6;
+
+// Base Border Color
+@spark-border-color: darken(@body-bg, 10%);
+
+// Set Common Borders
+@list-group-border: @spark-border-color;
+@navbar-default-border: @spark-border-color;
+@panel-default-border: @spark-border-color;
+@panel-inner-border: @spark-border-color;
+
+// Brands
+@brand-primary: #3097d1;
+@brand-info: #8eb4cb;
+@brand-success: #4eb76e;
+@brand-warning: #cbb956;
+@brand-danger: #bf5329;
+
+// Typography
+@font-family-sans-serif: Nunito, 'Open Sans', Helvetica, Arial, sans-serif;
+@line-height-base: 1.6;
+@text-color: #1d2a30;
+
+// Buttons
+@btn-default-color: @text-color;
+@btn-font-size: @font-size-base;
+@btn-font-weight: 300;
+
+// Inputs
+@input-border: lighten(@text-color, 40%);
+@input-border-focus: lighten(@brand-primary, 25%);
+@input-color-placeholder: lighten(@text-color, 30%);
+
+// Navbar
+@navbar-height: 50px;
+@navbar-margin-bottom: 0;
+
+@navbar-inverse-bg: #fff;
+@navbar-inverse-color: lighten(@text-color, 30%);
+@navbar-inverse-border: @spark-border-color;
+
+@navbar-inverse-link-color: lighten(@text-color, 25%);
+@navbar-inverse-link-active-bg: transparent;
+@navbar-inverse-link-active-color: @navbar-inverse-link-hover-color;
+@navbar-inverse-link-hover-color: darken(@navbar-inverse-link-color, 5%);
+
+@navbar-inverse-toggle-border-color: @spark-border-color;
+@navbar-inverse-toggle-hover-bg: @navbar-inverse-bg;
+@navbar-inverse-toggle-icon-bar-bg: @spark-border-color;
+
+// Dropdowns
+@dropdown-anchor-padding: 5px 20px;
+@dropdown-border: @spark-border-color;
+@dropdown-divider-bg: lighten(@spark-border-color, 5%);
+@dropdown-header-color: darken(@text-color, 10%);
+@dropdown-link-color: @text-color;
+@dropdown-link-hover-bg: #fff;
+@dropdown-padding: 10px 0;

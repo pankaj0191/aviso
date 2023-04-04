@@ -1,0 +1,38 @@
+/**
+ * State Loading
+ */
+export const LOADING_PENDING = 'LOADING_PENDING'
+export const LOADING_COMPLETED = 'LOADING_COMPLETED'
+
+/**
+ * users.js
+ */
+export const BOOTSTRAP = 'BOOTSTRAP';
+export const USER_STORAGE = 'USER_STORAGE';
+export const PROFILE = 'PROFILE';
+export const UPDATE_PROFILE = 'UPDATE_PROFILE';
+export const UPDATE_REVIEW_PROJECT_NOTIFY = 'UPDATE_REVIEW_PROJECT_NOTIFY';
+export const LOGIN = 'LOGIN';
+export const LOGOUT = 'LOGOUT';
+export const SET_ROL = 'SET_ROL';
+
+
+/**
+ * projects.js
+ */
+export const PROJECTS_LOAD = 'PROJECTS_LOAD';
+export const PROJECTS_STORE = 'PROJECTS_STORE';
+export const SAVE_CURRENT_PROOF_DATA = 'SAVE_CURRENT_PROOF_DATA';
+export const RESET_CURRENT_PROOF_DATA = 'RESET_CURRENT_PROOF_DATA';
+export const SAVE_CURRENT_PROJECT_NAME = 'SAVE_CURRENT_PROJECT_NAME';
+export const SAVE_PROGRESS_PROJECT = 'SAVE_PROGRESS_PROJECT';
+export const SAVE_REVISION_PROJECTS = 'SAVE_REVISION_PROJECTS';
+export const SAVE_DRAFT_PROJECTS = 'SAVE_DRAFT_PROJECTS';
+export const SAVE_APPROVED_PROJECTS = 'SAVE_APPROVED_PROJECTS';
+export const SAVE_COMPLETED_PROJECTS = 'SAVE_COMPLETED_PROJECTS';
+
+
+/**
+ * team.js
+ */
+export const TEAM = 'TEAM';

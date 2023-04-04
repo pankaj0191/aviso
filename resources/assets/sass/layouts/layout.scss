@@ -1,0 +1,99 @@
+.el-aside {
+	background-color: #545c64;
+	position: fixed;
+	height: 100%;
+}
+
+#spa-projects .hideSidebar .sidebar-container {
+	width: 54px !important;
+}
+
+#spa-projects .sidebar-container {
+	-webkit-transition: width 0.28s;
+	transition: width 0.28s;
+	width: 220px !important;
+	background-color: #304156;
+	height: 100%;
+	position: fixed;
+	font-size: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1001;
+	overflow: hidden;
+}
+
+#spa-projects .sidebar-container .el-scrollbar {
+	height: 100%;
+}
+
+.el-scrollbar {
+	overflow: hidden;
+	position: relative;
+}
+
+.scrollbar-wrapper {
+	overflow-x: hidden !important;
+}
+
+.el-scrollbar__wrap {
+	overflow: scroll;
+	height: 100%;
+}
+
+#spa-projects .sidebar-container .el-menu {
+	border: none;
+	height: 100%;
+	width: 100% !important;
+}
+
+#spa-projects .sidebar-container .is-horizontal {
+	display: none;
+}
+
+.el-scrollbar__bar.is-horizontal {
+	height: 6px;
+	left: 2px;
+}
+
+#spa-projects .sidebar-container .el-scrollbar__bar.is-vertical {
+	right: 0;
+}
+
+.el-scrollbar__bar.is-vertical {
+	width: 6px;
+	top: 2px;
+}
+
+.el-scrollbar__bar {
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+	z-index: 1;
+	border-radius: 4px;
+	opacity: 0;
+	-webkit-transition: opacity 0.12s ease-out;
+	transition: opacity 0.12s ease-out;
+}
+
+.el-scrollbar:hover .el-scrollbar__bar {
+	opacity: 1;
+	-webkit-transition: opacity 0.34s ease-out;
+	transition: opacity 0.34s ease-out;
+}
+
+.el-scrollbar__bar.is-vertical > div {
+	width: 100%;
+}
+
+.el-scrollbar__thumb {
+	position: relative;
+	display: block;
+	width: 0;
+	height: 0;
+	cursor: pointer;
+	border-radius: inherit;
+	background-color: rgba(144, 147, 153, 0.3);
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+}

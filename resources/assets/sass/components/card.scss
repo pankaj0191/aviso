@@ -1,0 +1,13 @@
+.tw-card {
+    @extend .tw-bg-white,
+        .tw-shadow,
+        .tw-rounded-lg,
+        .tw-overflow-hidden,
+        .tw-my-6;
+    .tw-body {
+        @extend .tw-px-8, .tw-py-8;
+    }
+    .tw-footer {
+        @extend .tw-px-7, .tw-py-5, .tw-bg-gray-100, .tw-bg-opacity-50, .tw-border-t, .tw-border-gray-100, .tw-text-right;
+    }
+}

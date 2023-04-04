@@ -1,0 +1,367 @@
+.login {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.login-card {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    background-color: #EAF4F0;
+    border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+    .login-card {
+        border-radius: 16px;
+    }
+}
+
+.login-form {
+    padding: 24px 0;
+    position: relative;
+    background-color: #fff;
+    border-radius: 25px;
+    min-height: 644px;
+}
+
+.stepper {
+    text-align: center;
+    padding-top: 24px;
+
+    .step {
+        cursor: pointer;
+        content: '';
+        background: #E2E8F0;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .step:hover {
+        background-color: #80B4A0;
+    }
+
+    .active {
+        background-color: #80B4A0;
+    }
+}
+
+.login-link {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #3C896C;
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        padding: 0px 0px 16px 0px !important;
+        position: relative;
+    }
+}
+
+.login-form .logo {
+    text-align: left;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.login-form .alert {
+    padding: 8px 16px;
+    margin-bottom: 22px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.login-form .alert-danger {
+    color: #a94442;
+    background-color: #fff5f5;
+    border-color: #ebccd1;
+}
+
+.login-form .login-title {
+    font-size: 18px;
+    color: #718096;
+    font-weight: 500;
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.login-form .login-content {
+    font-size: 12px;
+    color: #A0AEC0;
+    text-align: left;
+    padding-bottom: 24px;
+}
+
+.login-form .label-form {
+    text-align: left;
+    font-weight: 300;
+    color: #718096;
+    margin-bottom: 8px;
+}
+
+.login-form .form-group {
+    margin-bottom: 16px;
+}
+
+.login-form .form-group .prooflo-input {
+    border: 1px solid #E2E8F0;
+    box-shadow: none;
+    background-color: #F7FAFC;
+}
+
+.login-form .form-group .prooflo-input:focus {
+    border: 1px solid #80B4A0;
+    background-color: #fff;
+}
+
+.login-form .checkbox {
+    margin-bottom: 24px;
+}
+
+.login-form .btn-login {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.login-form .btn-login:hover {
+    background-color: #3C896C !important;
+}
+
+.login-form .btn-login:focus {
+    outline: none;
+}
+
+.login-form .prooflo-text {
+    font-weight: 400;
+    padding: 12px 0 0 0;
+    width: 100%;
+}
+
+.login-form .registration-link .prooflo-text {
+    font-weight: 400;
+    padding: 12px 0 0 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+.login-card .login-image {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.login-card .login-image .image {
+    padding-top: 120px;
+    padding-bottom: 24px;
+}
+
+.login-card .login-image .content {
+    padding-bottom: 96px;
+}
+
+.login-card .login-image .content .content-head {
+    color: #3C896C;
+    width: 240px;
+    margin: auto;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+
+.login-card .login-image .content .content-body {
+    color: #58585A;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
+.login-card .login-image .content .content-foot {
+    color: #718096;
+    width: 270px;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.register-confirmation {
+    text-align: center;
+    margin-top: 120px;
+
+    .thanks {
+        color: #718096;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .content {
+        color: #A0AEC0;
+        font-size: 12px;
+        font-style: italic;
+        margin-bottom: 4px;
+    }
+
+    .conf-mail {
+        color: #000;
+    }
+}
+
+.re-send-email {
+    margin-top: 148px;
+}
+
+
+.card-input-element+.card {
+    height: calc(48px + 3*1rem);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    background-color: #F7FAFC;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding-left: 12px;
+    color: var(--primary);
+    border: 2px solid transparent;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.card-input-element+.card:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked+.card {
+    border: 2px solid var(--primary);
+    -webkit-transition: border .3s;
+    -o-transition: border .3s;
+    background-color: #80B4A0;
+    color: #fff;
+    transition: border .3s;
+}
+
+.card-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card-input-element:checked+.card::before {
+    content: '\f058';
+    color: #fff;
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    padding-right: 8px;
+    padding-left: 4px;
+    -webkit-animation-name: fadeInCheckbox;
+    animation-name: fadeInCheckbox;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@-webkit-keyframes fadeInCheckbox {
+    from {
+        opacity: 0;
+        -webkit-transform: rotateZ(-20deg);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: rotateZ(0deg);
+    }
+}
+
+@keyframes fadeInCheckbox {
+    from {
+        opacity: 0;
+        transform: rotateZ(-20deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        margin-left: -150px
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 0;
+    }
+}
+
+
+.price-card {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    padding: 24px;
+    background-color: #F7FAFC;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+
+    .price-header {
+        display: flex;
+        font-weight: 500;
+        font-size: 20px;
+        align-items: center;
+        padding-bottom: 24px;
+
+        .price-title {
+            margin-left: 12px;
+        }
+    }
+
+    .price-features {
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #EDF2F7;
+
+            .feature-title {
+                color: #718096;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .price-cost {
+        font-size: 48px;
+        font-weight: 700;
+        color: #718096;
+    }
+
+}
+
+.head-content {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    color: #3b896c;
+}
+
+.foot-content {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    color: #718096;
+}

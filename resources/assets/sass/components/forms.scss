@@ -1,0 +1,23 @@
+.form-field {
+	margin-bottom: 20px;
+}
+
+.field-errors {
+	color: #fd5a5a;
+	font-size: 13px;
+	margin-top: 3px;
+
+	span {
+		display: block;
+	}
+}
+
+.optional .el-form-item__label
+{
+	padding-right: 3px;
+}
+
+.optional i
+{
+	font-style: italic;
+}
